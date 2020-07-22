@@ -1,0 +1,63 @@
+/* myStyle.css */
+body {
+    background-color:black;
+    
+   }
+   h1 {
+    color:#00a8cc;
+    font: italic 200% fantasy;
+    text-align: center;
+   }
+   
+   
+   
+   }
+  h4{
+    
+      color: blanchedalmond;
+      font: ;
+        
+    }
+  #top{
+      width: 100%;
+      height: 10%;
+      background-color:#4f8a8b;
+      text-align: right;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+    #myinfo{
+      width: 20%;
+      height: 100%;
+      background-color:#f4f6ff;
+      position: fixed;
+      float: left;
+      left: 0;
+      border-color: #fbd46d;
+      border-style: dotted;
+      border-width: 7px;
+    .button{
+       background-color:blue;
+       border: none;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+    }  
+      
+  }
+  #myinterests{
+      background-color: #fbd46d;
+      color:#f4f6ff;
+      top: 50;
+      width: 50%;
+      height: 30%;
+      border-width: 3px;
+      border-style: solid;
+      border-color: black;
+      font: italic fantasy;
+    }
+   #
