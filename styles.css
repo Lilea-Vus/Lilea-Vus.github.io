@@ -1,33 +1,29 @@
 /* myStyle.css */
 body {
-    background-color:black;
+    background-image: url('images/lampmedium.jpg');
     
    }
+
    h1 {
-    color:#00a8cc;
+    color:#4f8a8b;
     font: italic 200% fantasy;
     text-align: center;
    }
-   
-   
-   
+   h3{
+     text-align: center;
+     font-style: italic;
+     font-size: x-large;
    }
-  h4{
-    
-      color: blanchedalmond;
-      font: ;
-        
-    }
   #top{
+      display: sticky;
       width: 100%;
       height: 10%;
       background-color:#4f8a8b;
       text-align: right;
       position: fixed;
       top: 0;
-      left: 0;
-  }
-    #myinfo{
+      left: 0;}
+  #myinfo{
       width: 20%;
       height: 100%;
       background-color:#f4f6ff;
@@ -36,28 +32,62 @@ body {
       left: 0;
       border-color: #fbd46d;
       border-style: dotted;
-      border-width: 7px;
-    .button{
-       background-color:blue;
-       border: none;
-       color: white;
-       padding: 15px 32px;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 16px;
-    }  
-      
-  }
-  #myinterests{
-      background-color: #fbd46d;
-      color:#f4f6ff;
-      top: 50;
-      width: 50%;
-      height: 30%;
+      border-width: 13px;}  
+
+    #myinterests{
+      background-image: url('images/yellowback.jpg');
+      color:black;
+      padding: 10px;
       border-width: 3px;
       border-style: solid;
       border-color: black;
-      font: italic fantasy;
+      
+      position: relative;
+      font-size: larger;}
+
+    #mybuttonbar{
+      background-color:#fbd46d;
+      color:#4f8a8b;
+      position: absolute;
+      text-align: center;
+      bottom:0;
+      right: 0;
+      padding: 10px;
+      width: 10%;
+      height: 20%;
+      border-width: 3px;
+      border-style:dashed;
+      border-color: white;
+      }
+   #Mybutton{
+    border: none;
+    color: #4f8a8b;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
     }
-   #
+   #Mybutton:hover, 
+     html{
+       background-color:black;
+    }
+  #Mybutton:active {
+    position:relative;
+    top:1px;
+    }
+    .flexcontainer{
+      display:flex;
+      width: 100%;
+      border: aquamarine;
+      border-style: double;
+      background-color: burlywood;
+      justify-content:space-around; 
+    }
+    
+      .card{
+        flex-grow: 4;
+        flex-wrap:wrap;
+        margin: 1px;}
+  
+      }
+       @media only screen and max-width:600px;
+         
